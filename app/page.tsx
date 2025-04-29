@@ -3,9 +3,9 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-<div className="font-sans bg-gray-50 dark:bg-gray-900 dark:text-white min-h-screen flex flex-col">
+<div className="font-sans bg-gray-50 dark:bg-gray-950 dark:text-white min-h-screen flex flex-col">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 bg-white dark:bg-gray-800 shadow-md">
+      <header className="flex items-center justify-between px-6 py-4 bg-white dark:bg-black shadow-md">
         <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">TalkPrepAI</div>
         <NavBar/>
       </header>
@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section id="features" className="px-6 md:px-20 py-16 bg-white dark:bg-gray-800 text-center">
+      <section id="features" className="px-6 md:px-20 py-16 bg-white dark:bg-black text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-12">How It Works</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="space-y-4">
@@ -72,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="px-6 md:px-20 py-6 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm text-center">
+      <footer className="px-6 md:px-20 py-6 bg-white dark:bg-black text-gray-500 dark:text-gray-400 text-sm text-center">
         © 2025 TalkPrepAI. All rights reserved.
       </footer>
     </div>
