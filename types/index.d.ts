@@ -97,3 +97,28 @@ interface InterviewFormProps {
 interface TechIconProps {
   techStack: string[];
 }
+
+export const dummyInterviews:Interview[]=[
+  {
+    id:"1",
+    userId:"user1",
+    role:"Frontend developer",
+    type:"techincal",
+    techstack:["React","typescript","Next.js"],
+    level:"junior",
+    questions:["What is react?"],
+    finalized:false,
+    createdAt:"2025-03015T10:00:00Z"
+  },
+  {
+    id:"2",
+    userId:"user2",
+    role:"backend developer",
+    type:"techincal",
+    techstack:["Express","Nodejs","Next.js"],
+    level:"mid",
+    questions:["What is node?"],
+    finalized:false,
+    createdAt:"2025-03015T10:00:00Z"
+  }
+]
