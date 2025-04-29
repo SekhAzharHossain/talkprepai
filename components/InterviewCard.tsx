@@ -15,10 +15,10 @@ import { Button } from './ui/button';
 
 const InterviewCard = ({
   interviewId,
-  userId,
+  // userId,
   role,
   type,
-  techstack,
+  // techstack,
   createdAt,
 }: InterviewCardProps) => {
   const feedback = null as Feedback | null;
