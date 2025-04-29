@@ -30,13 +30,13 @@ export default function Home() {
         </div>
         <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
           {/* Hero illustration */}
-          <Image
+          {/* <Image
             src="/microphone-illustration.svg"
             alt="Voice Interview"
             width={320}
             height={320}
             className="w-80"
-          />
+          /> */}
         </div>
       </section>
 
