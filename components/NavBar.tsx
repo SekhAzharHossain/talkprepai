@@ -12,7 +12,9 @@ import {
 
 const NavBar = () => {
   return (
-    <nav className="space-x-6 text-gray-600 dark:text-gray-200 dark:">
+    <header className="flex items-center justify-between px-6 py-4 bg-white dark:bg-black shadow-md">
+      <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">TalkPrepAI</div>
+      <nav className="space-x-6 text-gray-600 dark:text-gray-200 dark:">
       <SignedOut>
         <SignInButton />
         <SignUpButton />
@@ -22,6 +24,8 @@ const NavBar = () => {
             </SignedIn>
     
   </nav>
+    </header>
+
   )
 }
 
