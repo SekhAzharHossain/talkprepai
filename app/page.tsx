@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export default function Home() {
       <NavBar/>
 
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center px-6 md:px-20 py-16">
+      <section className="flex flex-col-reverse md:flex-row items-center px-6 md:px-20 py-28">
         <div className="w-full md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
             Ace Your Interviews<br />with AI-Powered Voice Practice
@@ -31,13 +31,13 @@ export default function Home() {
         </div>
         <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
           {/* Hero illustration */}
-          {/* <Image
-            src="/microphone-illustration.svg"
+          <Image
+            src="/herosectionImage-removebg-preview.png"
             alt="Voice Interview"
-            width={320}
+            width={420}
             height={320}
             className="w-80"
-          /> */}
+          />
         </div>
       </section>
 
